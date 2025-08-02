@@ -1,4 +1,10 @@
-# Wolfenstein 3D CGA
+# Wolfenstein 3D EGA
+jhhoward's original goal was realised over on his github - to make a CGA, 8088 runnable version of Wolfenstein3D. That's amazing. But I want it to rock in 16 colours. So for some reason I'm seeing if I can mod his code to make that happen. No idea if I'll ever get there, or if I'll have time to make it happen this century, but here goes!
+
+Also because it's 320x200x16, this will likely require more compute than the 8088 or V20 can do, so it's likely to get pushed back up to need a 286, so be forewarned on that front!
+
+This is all just because I have a 5160 with an EGA card and a 5154 monitor. Selfish reasons....
+
 ![Wolfenstein 3D in 4 colour CGA](readme_imgs/demo.gif)
 
 This project is a modification to the original Wolfenstein 3D source release which renders the game in CGA video modes. The engine has also been modified so that it can be run on 8088 based CPUs, allowing it to be run on a wide variety of old PC hardware.
